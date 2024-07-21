@@ -31,7 +31,7 @@ const ModeButton: React.FC<ModeButtonProps> = (props) => {
             setIsActive(newMode === props.mode);
 
             if(newMode === props.mode) {
-                document.title = "Calcium - "+ props.name;
+                document.title = "白羽计算器 - "+ props.name;
                 new Storage().setItem("ca-mode", props.mode);
             }
         }]
