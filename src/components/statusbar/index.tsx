@@ -33,15 +33,6 @@ const StatusBar: React.FC = () => {
         <>
             <footer className="status-bar">
                 <div className="split">
-                    <BarItem title="Repo" to="https://github.com/nocpiun/calcium" className="primary" tooltip="查看GitHub源代码仓库"/>
-                    <BarItem title="反馈" to="https://github.com/nocpiun/calcium/issues/new/choose" tooltip="Issues"/>
-                    <BarItem title="支持我" to="https://nin.red/#/donate"/>
-                    {
-                        mode === Mode.GRAPHING &&
-                        <BarItem title={"FPS: "+ fps.toFixed(0)} disabled/>
-                    }
-                </div>
-                <div className="split">
                     {
                         mode === Mode.GENERAL &&
                         <BarItem title="变量" onClick={() => new Emitter().emit("open-vars-dialog")} tooltip="查看变量列表"/>
@@ -63,7 +54,6 @@ const StatusBar: React.FC = () => {
                         <BarItem title="重载" onClick={() => new Emitter().emit("graphing-reload")} tooltip="函数图像渲染重载"/>
                     }
                     <BarItem title="快捷键" onClick={() => shortcutDialogRef.current?.open()}/>
-                    <BarItem title={"Calcium "+ version} onClick={() => new Emitter().emit("open-about-dialog")}/>
                 </div>
             </footer>
 
