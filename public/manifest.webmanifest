@@ -1,6 +1,6 @@
 {
-    "short_name": "Calcium",
-    "name": "Calcium: A web-based calculator app",
+    "short_name": "白羽计算器",
+    "name": "xiaoqy-calc: A web-based calculator app",
     "icons": [
         {
             "src": "/icon.png",
@@ -16,8 +16,8 @@
     "theme_color": "#0e1117",
     "shortcuts": [
         {
-            "name": "Calcium Calculator",
-            "short_name": "Calcium",
+            "name": "xiaoqy Calculator",
+            "short_name": "xiaoqy-calc",
             "description": "A web-based calculator app",
             "url": "/",
             "icons": [{ "src": "/icon.png", "sizes": "300x300" }]

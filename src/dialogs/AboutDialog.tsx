@@ -126,16 +126,6 @@ const AboutDialog: React.FC<AboutDialogProps> = forwardRef<Dialog, AboutDialogPr
                         <p className="copy">By Nocpiun Org / Copyright (c) 2024 NriotHrreion</p>
                     </div>
                 </div>
-                
-                <ul>
-                    <li><AboutItem name="数学显示" content={<a href="https://katex.org" target="_blank" rel="noreferrer" className="katex-logo"><InlineMath>\KaTeX</InlineMath></a>}/></li>
-                    <li><AboutItem name="支持我" content={<a href="https://nin.red/#/donate" target="_blank" rel="noreferrer">打赏</a>}/></li>
-                    <li><AboutItem name="Github Repo" content={<a href="https://github.com/nocpiun/calcium" target="_blank" rel="noreferrer">nocpiun/calcium</a>}/></li>
-                    <li><AboutItem name="依赖" content={<button onClick={() => setDependencyListVisible(true)}>查看</button>}/></li>
-                    <li><AboutItem name="许可" content={<button onClick={() => setLicenseVisible(true)}>查看</button>}/></li>
-                </ul>
-
-                <h3 className="thanks">感谢使用 Calcium!</h3>
 
                 <IndialogPage title="许可 (MIT)" visible={isLicenseVisible} onBack={() => setLicenseVisible(false)}>
                     <textarea className="license-content" value={licenseContent} disabled/>

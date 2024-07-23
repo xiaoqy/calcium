@@ -2,7 +2,7 @@ import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
     appId: "net.nocpiun.calcium.android",
-    appName: "Calcium 计算器",
+    appName: "白羽计算器",
     webDir: "build",
 }
 
