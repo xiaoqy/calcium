@@ -58,7 +58,7 @@ const Sidebar: React.FC = () => {
             {/* Mobile only */}
             {<div className="mobile-control-panel">
                 <div className="sidebar-title">
-                    <span>Calcium {version}</span>
+                    <span>白羽计算器</span>
                 </div>
 
                 <div className="mode-switcher-wrapper">
@@ -67,12 +67,6 @@ const Sidebar: React.FC = () => {
                         <ModeButton name="图像" mode={Mode.GRAPHING}/>
                         <ModeButton name="程序员" mode={Mode.PROGRAMMING}/>
                     </div>
-                </div>
-                
-                <div className="links">
-                    <span onClick={() => window.open("https://github.com/nocpiun/calcium/issues/new/choose")}>反馈问题</span>
-                    <span onClick={() => new Emitter().emit("open-about-dialog")}>关于</span>
-                    <span onClick={() => window.open("https://nin.red/#/donate")}>支持我</span>
                 </div>
 
                 <div className="sidebar-backdrop" onClick={() => handleCloseSidebar()}/>
