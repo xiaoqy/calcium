@@ -360,7 +360,7 @@ const Graphing: React.FC = memo(() => {
                 <canvas className="graphing-canvas" id="graphing"/>
                 <div className="loading-container" style={{ display: isLoading ? "flex" : "none" }}>
                     <div className="loading-text">
-                        <p>Calcium</p>
+                        <p>白羽计算器</p>
                     </div>
                 </div>
             </div>
