@@ -58,7 +58,7 @@ const Sidebar: React.FC = () => {
             {/* Mobile only */}
             {<div className="mobile-control-panel">
                 <div className="sidebar-title">
-                    <span>白羽计算器</span>
+                    <span>文文计算器</span>
                 </div>
 
                 <div className="mode-switcher-wrapper">
