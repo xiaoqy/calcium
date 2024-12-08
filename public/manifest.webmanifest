@@ -1,6 +1,6 @@
 {
     "short_name": "文文计算器",
-    "name": "xiaoqy-calc: A web-based calculator app",
+    "name": "xiaoww-calc: A web-based calculator app",
     "icons": [
         {
             "src": "/icon.png",
@@ -16,8 +16,8 @@
     "theme_color": "#0e1117",
     "shortcuts": [
         {
-            "name": "xiaoqy Calculator",
-            "short_name": "xiaoqy-calc",
+            "name": "xiaoww Calculator",
+            "short_name": "xiaoww-calc",
             "description": "A web-based calculator app",
             "url": "/",
             "icons": [{ "src": "/icon.png", "sizes": "300x300" }]
